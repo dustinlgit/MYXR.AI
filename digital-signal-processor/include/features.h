@@ -5,7 +5,11 @@
 */
 
 /*
-    
+    Feature extraction measures key properties of a track or stem, turning audio into numbers 
+    the AI can understand. Common features include RMS (average loudness), peak levels, crest 
+    factor (peak-to-average ratio), spectral centroid (brightness), and energy in low/mid/high bands. 
+    These metrics allow the AI or Markov engine to decide what adjustments (gain, EQ, compression) 
+    are needed and track the effect of each action.
 */
 
 #ifndef FEATURES_H_

@@ -5,7 +5,11 @@
 */
 
 /*
-    
+    A compressor reduces the dynamic range of an audio signal by turning down loud peaks and 
+    slightly raising softer sections. This makes instruments more consistent in volume, helps 
+    them sit together in the mix, and prevents sudden spikes from jumping out. Light compression 
+    can add “glue” to a track without making it sound squashed, allowing the AI to control 
+    perceived loudness while preserving natural dynamics.
 */
 
 #ifndef COMPRESSOR_H_

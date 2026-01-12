@@ -5,7 +5,10 @@
 */
 
 /*
-    
+    Gain adjusts the loudness of a track or stem by multiplying the audio signal. It allows 
+    you to bring instruments up or down in the mix, maintain headroom, and prepare stems for 
+    further processing. Proper gain staging ensures no clipping occurs while giving the AI/engine 
+    room to apply EQ, compression, or other effects safely.
 */
 
 #ifndef GAIN_H_
