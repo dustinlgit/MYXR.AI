@@ -1,0 +1,19 @@
+DSP is important to the whole process
+
+this will essentially be our featuire extraction step
+
+it will analyze raw stems for:
+ - Volume / RMS
+ - Spectral balance
+ - Dynamic range
+ - Crest factor
+ - Stereo correlation
+
+then there will be a decsion layer later on
+
+then dsp will apply moves safely
+ - Gain
+ - EQ
+ - Compressor
+ - Bus processing
+ - Peak limiter
