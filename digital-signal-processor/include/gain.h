@@ -14,7 +14,7 @@
 #ifndef GAIN_H_
 #define GAIN_H_
 
-void apply_gain(float* samples, int num_samples, float gain_db);
+void apply_gain(std::vector<float>& samples, float gain_db);
 
 
 #endif /* GAIN_H_ */

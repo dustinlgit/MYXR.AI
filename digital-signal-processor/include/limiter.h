@@ -15,7 +15,7 @@
 #ifndef LIMITER_H_
 #define LIMITER_H_
 
-void apply_limiter(float* samples, int num_samples, float ceiling = 0.997f);
+void apply_limiter(std::vector<float>& samples, float ceiling = 0.997f);
 
 #endif /* LIMITER_H_ */
 

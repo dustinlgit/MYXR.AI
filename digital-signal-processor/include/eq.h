@@ -23,6 +23,7 @@ struct Biquad {
 };
 
 void design_highpass(Biquad &f, float fc, float fs, float Q = 0.707f);
+void apply_biquad(std::vector<float>& samples, Biquad& filter);
 
 #endif /* EQ_H_ */
 

@@ -15,15 +15,12 @@
 #ifndef FEATURES_H_
 #define FEATURES_H_
 
-#include <cmath>
-#include <algorithm>
-
 struct AudioFeatures {
     float rms;
     float peak;
 };
 
-AudioFeatures extract_features(const float* samples, int num_samples);
+AudioFeatures extract_features(const std::vector<float>& samples);
 
 #endif /* FEATURES_H_ */
 
