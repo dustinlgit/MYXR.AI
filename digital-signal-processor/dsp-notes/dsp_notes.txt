@@ -1,0 +1,9 @@
+dsp manipulates digital audio to enhance, trasnform, or anaylze sound signals
+
+so this is the hands that change the signals/ sounds
+
+so dsp would:
+    1. extract hte features for the markov chains/ai
+    2. then transform the audio based on the markov and ai
+    3. create safe and reproducable results
+
